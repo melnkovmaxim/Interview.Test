@@ -5,6 +5,7 @@ using Interview.Test.Reports;
 var csvFilePath = args[0];
 
 // Можно и асинхронно, но т.к. консоль...
+// Не приводил к листу, чтоб можно было обе части замерить стопвотчем читая каждый раз и файла
 var lines = File.ReadLines(csvFilePath);
 
 // 1 часть
